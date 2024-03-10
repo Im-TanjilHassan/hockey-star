@@ -496,14 +496,14 @@
             <div class="hero min-h-screen bg-base-200">
                 <div class="hero-content flex-col lg:flex-row">
                     <div class="space-y-4 p-12 lg:mt-16">
-                        <div class="card w-96 bg-base-100 shadow-xl ">
+                        <div class="card lg:w-96 bg-base-100 shadow-xl ">
                             <figure><img src="Images/phone.png" alt="Shoes" /></figure>
                             <div class="card-body items-center text-center">
                                 <p>Phone Number:</p>
                                 <h2 class="card-title">(+62) 123-321-543</h2>
                             </div>
                         </div>
-                        <div class="card w-96 bg-base-100 shadow-xl ">
+                        <div class="card lg:w-96 bg-base-100 shadow-xl ">
                             <figure><img src="Images/mail.png" alt="Shoes" /></figure>
                             <div class="card-body items-center text-center">
                                 <p>Email:</p>
@@ -512,7 +512,7 @@
                                 </h2>
                             </div>
                         </div>
-                        <div class="card w-96 bg-base-100 shadow-xl ">
+                        <div class="card lg:w-96 bg-base-100 shadow-xl ">
                             <figure><img src="Images/location.png" alt="Shoes" /></figure>
                             <div class="card-body items-center text-center">
                                 <p>Location</p>
@@ -560,9 +560,9 @@
             </div>
         </section>
     </main>
-    <footer class="footer p-10 bg-slate-900 text-base-content text-white">
-        <aside class="space-y-4">
-            <h2 class="card-title">Get In Touch</h2>
+    <footer class="footer grid grid-cols-4 p-10 bg-slate-900 text-base-content text-white">
+        <aside class="space-y-4 col-span-4 m-auto lg:col-span-1 text-center lg:text-start">
+            <h2 class="card-title ml-10 lg:ml-0">Get In Touch</h2>
             <p>Get in touch with us<br>Providing reliable tech since 1992</p>
             <div class="space-y-4">
                 <div>
@@ -575,21 +575,21 @@
                 </div>
             </div>
         </aside>
-            <nav>
+            <nav class="col-span-2 lg:col-span-1 m-auto">
                 <h6 class="footer-title">Services</h6>
                 <a class="link link-hover">Branding</a>
                 <a class="link link-hover">Design</a>
                 <a class="link link-hover">Marketing</a>
                 <a class="link link-hover">Advertisement</a>
             </nav>
-            <nav>
+            <nav class="col-span-2 lg:col-span-1 m-auto">
                 <h6 class="footer-title">Company</h6>
                 <a class="link link-hover">About us</a>
                 <a class="link link-hover">Contact</a>
                 <a class="link link-hover">Jobs</a>
                 <a class="link link-hover">Press kit</a>
             </nav>
-            <nav>
+            <nav class="col-start-2 col-span-2 lg:col-span-1 m-auto">
                 <h6 class="footer-title">Legal</h6>
                 <a class="link link-hover">Terms of use</a>
                 <a class="link link-hover">Privacy policy</a>
